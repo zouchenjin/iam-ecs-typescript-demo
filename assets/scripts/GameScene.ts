@@ -3,7 +3,7 @@
  */
 
 import { Component, Prefab, _decorator } from "cc";
-import { createECSEnv } from "iam-ecs-typescript";
+import { createECSEnv } from "./iam-ecs-typescript";
 import { AttackSystem } from "./systems/AttackSystem";
 import { InputSystem } from "./systems/InputSystem";
 import { MovableSystem } from "./systems/MovableSystem";

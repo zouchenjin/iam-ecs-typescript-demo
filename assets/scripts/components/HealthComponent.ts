@@ -3,7 +3,7 @@
  */
 
 import { Node, tween, Vec3 } from "cc";
-import { ecsclass, ECSComponent } from "iam-ecs-typescript";
+import { ecsclass, ECSComponent } from "../iam-ecs-typescript";
 
 /**
  * 健康度组件

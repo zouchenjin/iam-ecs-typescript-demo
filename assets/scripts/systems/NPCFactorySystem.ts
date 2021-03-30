@@ -1,5 +1,5 @@
 import { instantiate, Node, Prefab, Vec3 } from "cc";
-import { ecsclass, ECSEntity, ECSSystem } from "iam-ecs-typescript";
+import { ecsclass, ECSEntity, ECSSystem } from "../iam-ecs-typescript";
 import { HealthComponent } from "../components/HealthComponent";
 import { MovableComponent } from "../components/MovableComponent";
 import { NPCComponent } from "../components/NPCComponent";
