@@ -145,6 +145,8 @@ export class ECSSystemsImpl implements ECSSystems {
         system
             .load()
             .then(() => {
+                // 系统已被删除
+                if(!this.loading.has(name)) return;
                 // 更新 loading 列表状态
                 this.loading.set(name, [system, true]);
                 // 检查 loading 列表
